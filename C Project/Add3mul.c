@@ -22,8 +22,10 @@ int add()
 }
 int mul()
 {
-	printf("\n enter a and b");
+	printf("\n enter a ");
+	printf("\n enter b");
 	scanf("%d%d",&a,&b);
 	c=a*b;
 	return c;
+	
 }
